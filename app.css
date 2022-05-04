@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  transition: background 2s ease;
+  background: #4cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote {
+  font-family: 'Indie Flower', cursive;
+  font-size: 6vw;
+  padding: 3vw;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  text-align: center;
+}
+
+.loader {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 100%;  
+  animation: scaleout 2s infinite ease-in-out;
+}
+
+@keyframes scaleout {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
