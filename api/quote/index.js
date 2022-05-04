@@ -1,6 +1,6 @@
 const https = require('https');
 
-const unplashApi = 'https://source.unsplash.com/1600x900?star-wars';
+const unplashApi = 'https://source.unsplash.com/1600x900?starwars';
 const quotes = [
   '"It\'s not my fault" - Han Solo',
   '"Your focus determines your reality.” – Qui-Gon Jinn',
