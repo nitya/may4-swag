@@ -1,17 +1,22 @@
 const https = require('https');
 
-const unplashApi = 'https://source.unsplash.com/1600x900?dream';
+const unplashApi = 'https://source.unsplash.com/1600x900?star-wars';
 const quotes = [
-  'Wherever you go, no matter what the weather, always bring your own sunshine.',
-  'You\’re awesome.',
-  'Happiness is the only thing that multiplies when you share it.',
-  'It always seems impossible until it is done.',
-  'Let your unique positive energy inspire confidence in others.',
-  'The best is yet to come.',
-  'You\'re capable of more than you can even dream.',
-  'You deserve the best.',
-  'Keep going, you\'re doing well.',
-  'Stay positive; stay hopeful'
+  '"It\'s not my fault" - Han Solo',
+  '"Your focus determines your reality.” – Qui-Gon Jinn',
+  ' “Do. Or do not. There is no try.” – Yoda',
+  ' “Somebody has to save our skins.” – Leia Organa',
+  '“In my experience there is no such thing as luck.” – Obi-Wan Kenobi',
+  '“I find your lack of faith disturbing.” – Darth Vader',
+  ' “I’ve got a bad feeling about this.” – basically everyone',
+  ' “It’s a trap!” – Admiral Ackbar',
+  '“So this is how liberty dies…with thunderous applause.” – Padmé Amidala',
+  ' “Never tell me the odds.” – Han Solo',
+  ' “Mind tricks don’t work on me.” – Watto',
+  '“Great, kid. Don’t get cocky.” – Han Solo',
+  '“Stay on target.” – Gold Five',
+  ' “This is a new day, a new beginning.” – Ahsoka Tano',
+  '',
 ];
 
 async function getImage() {
