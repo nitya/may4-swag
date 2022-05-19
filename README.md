@@ -43,7 +43,7 @@ See it live [here](https://aka.ms/swag-demo).
 
 Click on **Use this template** on GitHub, then click on the button below to deploy your own (for free): 
 
-[![Deploy to Azure button](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/?feature.customportal=false&WT.mc_id=javascript-0000-yolasors#create/Microsoft.StaticApp)
+[![Deploy to Azure button](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/?feature.customportal=false&WT.mc_id=30daysofswa-61155-ninarasi#create/Microsoft.StaticApp)
 
 ## What's Azure *SWAG*?
 
