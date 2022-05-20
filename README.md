@@ -2,6 +2,8 @@
 
 ![Screenshot with a Star Wars Quote](mind-tricks-watto.png)
 
+_This image was pulled at random by the [Unsplash](https://unsplash.com) query API in app_
+
 ## Objective
 
 It's May 4th. Let's create a simple Static Web App with a Managed Functions API using the [Azure SWAG](https://github.com/sinedied/azure-swag) template, customizing it to use quotes and images related to the Star Wars Day celebrations!!
